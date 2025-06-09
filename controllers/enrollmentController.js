@@ -45,8 +45,8 @@ exports.userEnrollmentController = async (req, res) => {
             ],
             mode: "payment",
             success_url:
-                "http://localhost:5173/paymentsuccess",
-            cancel_url: "http://localhost:5173/paymenterror",
+                "https://skillpath-frontend-react.vercel.app/paymentsuccess",
+            cancel_url: "https://skillpath-frontend-react.vercel.app/paymenterror",
             metadata: {
                 userid,
                 hostemail,
